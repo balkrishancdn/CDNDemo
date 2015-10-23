@@ -16,6 +16,7 @@
 		21AD4B411BDA0B6100102192 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21AD4B3F1BDA0B6100102192 /* LaunchScreen.storyboard */; };
 		21AD4B4C1BDA0B6100102192 /* GitDemoXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD4B4B1BDA0B6100102192 /* GitDemoXcodeTests.m */; };
 		21AD4B571BDA0B6200102192 /* GitDemoXcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD4B561BDA0B6200102192 /* GitDemoXcodeUITests.m */; };
+		21AD4B661BDA0C2E00102192 /* CDNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AD4B651BDA0C2E00102192 /* CDNViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		21AD4B521BDA0B6100102192 /* GitDemoXcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoXcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AD4B561BDA0B6200102192 /* GitDemoXcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoXcodeUITests.m; sourceTree = "<group>"; };
 		21AD4B581BDA0B6200102192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AD4B641BDA0C2E00102192 /* CDNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNViewController.h; sourceTree = "<group>"; };
+		21AD4B651BDA0C2E00102192 /* CDNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				21AD4B421BDA0B6100102192 /* Info.plist */,
 				21AD4B3A1BDA0B6100102192 /* GitDemoXcode.xcdatamodeld */,
 				21AD4B2E1BDA0B6100102192 /* Supporting Files */,
+				21AD4B641BDA0C2E00102192 /* CDNViewController.h */,
+				21AD4B651BDA0C2E00102192 /* CDNViewController.m */,
 			);
 			path = GitDemoXcode;
 			sourceTree = "<group>";
@@ -276,6 +281,7 @@
 				21AD4B361BDA0B6100102192 /* ViewController.m in Sources */,
 				21AD4B3C1BDA0B6100102192 /* GitDemoXcode.xcdatamodeld in Sources */,
 				21AD4B331BDA0B6100102192 /* AppDelegate.m in Sources */,
+				21AD4B661BDA0C2E00102192 /* CDNViewController.m in Sources */,
 				21AD4B301BDA0B6100102192 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
